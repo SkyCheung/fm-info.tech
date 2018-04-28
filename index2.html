@@ -19,33 +19,27 @@
             right:0;
             background-color: #1a1724;               
         }
-        .page-header{
-            background:none;
-            color:#fff;
-            padding:100px 30px;
-        }
-        .canvas-wrap{
-            position:relative;
-            
-        }
-        div.canvas-content{
-            position:relative;
-            z-index:2000;
-            color:#fff;
-            text-align:center;
-        }
+        .page-header{background:none;color:#fff;padding:100px 30px;}
+        .canvas-wrap{position:relative;}
+        div.canvas-content{position:relative;z-index:2000;color:#fff;text-align:center;}
   </style>
 </head>
 
 <body>
   <div id="banner" class="py-5 text-center opaque-overlay" style="background-image: url(homescreen-3.jpg);">
+    <div class="row">
+       <div class="col-md-3 col-sm-8 col-xs-12">
+            <a href="#" title="">
+              <img class="site-logo" src="fm-logo-68-1.png" alt="" width="86px"></a>
+        </div>
+    </div>
     <div class="container py-5">
       <div class="row">
         <div class="col-md-12 text-white">
           <h1 class="display-3 mb-4">帮助企业迈向新的高度</h1>
           <p class="lead mb-5">为品牌企业提供基于移动互联网的ERP解决方案和智能网站解决方案</p>
-          <a href="#" class="btn btn-lg mx-1 btn-secondary">团队介绍</a>
-          <a href="#" class="btn btn-lg btn-primary mx-1">联系我们</a>
+          <a href="#business" class="btn btn-lg mx-1 btn-secondary business">业务介绍</a>
+          <a href="#contactus" class="btn btn-lg btn-primary mx-1 contactus">联系我们</a>
         </div>
       </div>
     </div>
@@ -118,12 +112,12 @@
         <div id="canvas" class="gradient"></div>
     </div>
   </div>
-  <div class="py-5 text-center bg-light">
+  <div id="business" class="py-5 text-center bg-light">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1>资深团队</h1>
-          <p class="lead">与牛人一起共事是件快乐的事 </p>
+          <h2>业务介绍</h2>
+          <!-- <p class="lead">与牛人一起共事是件快乐的事 </p> -->
         </div>
       </div>
       <div class="row">
@@ -153,42 +147,33 @@
   <div class="bg-dark text-white">
     <div class="container">
       <div class="row">
-        <div class="p-4 col-md-3">
-          <h2 class="mb-4 text-white">酷悠悠科技</h2>
+        <div class="p-4 col-md-4">
+          <h3 class="mb-4 text-white">F&M I.T 锋銘信息科技</h3>
           <p class="text-white">为品牌企业提供基于移动互联网的ERP解决方案和智能网站解决方案</p>
         </div>
-        <div class="p-4 col-md-3">
-          <h2 class="mb-4 text-white">友情链接</h2>
+        <div class="p-4 col-md-4">
+          <h3 class="mb-4 text-white">主研产品</h3>
           <ul class="list-unstyled">
-            <a href="#" class="text-white">C2C 国际物流业务</a>
-            <br>
-            <a href="#" class="text-white">mercari日本小众代购</a>
-            <br>
-            <a href="#" class="text-white">海外电商仓储系统</a>
-            <br>东南亚跨境电商代运营</ul>
+            <a href="#" class="text-white">日本Yahoo自动投标系统</a><br>
+            <a href="#" class="text-white">海外电商仓储系统</a><br>
+            <a href="#" class="text-white">二手手机B2B拍卖系统</a><br>
+          </ul>
         </div>
-        <div class="p-4 col-md-3">
-          <h2 class="mb-4">联系方式</h2>
+        <div id="contactus" class="p-4 col-md-4">
+          <h3 class="mb-4">联系方式</h3>
           <p>
-            <a href="tel:+246 - 542 550 5462" class="text-white"><i class="fa d-inline mr-3 fa-phone text-white"></i>+0</a>755 8888 8888</p>
+            <a href="tel:075588888888" class="text-white"><i class="fa d-inline mr-3 fa-phone text-white"></i></a>0755 8888 8888</p>
           <p>
-            <a href="mailto:otto@hoyoyo.com" class="text-white"><i class="fa d-inline mr-3 fa-envelope-o text-white"></i>otto@hoyoyo.com</a>
+            <a href="mailto:system@fm-info.tech" class="text-white"><i class="fa d-inline mr-3 fa-envelope-o text-white"></i>system@fm-info.tech</a>
           </p>
           <p>
-            <a href="https://goo.gl/maps/AUq7b9W7yYJ2" class="text-white" target="_blank"><i class="fa d-inline mr-3 fa-map-marker text-white"></i>s</a>深圳市罗湖区南湖路2018号</p>
+            <a href="https://goo.gl/maps/AUq7b9W7yYJ2" class="text-white" target="_blank"><i class="fa d-inline mr-3 fa-map-marker text-white"></i></a>深圳市罗湖区南湖路2018号</p>
         </div>
-        <div class="p-4 col-md-3">
-          <h2 class="mb-4 text-light">邮件订阅</h2>
-          <form>
-            <fieldset class="form-group text-white"> <label for="exampleInputEmail1">订阅我们的最新信息</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="您的邮箱地址"> </fieldset>
-            <button type="submit" class="btn btn-outline-primary">提交</button>
-          </form>
-        </div>
+    
       </div>
       <div class="row">
         <div class="col-md-12 mt-3">
-          <p class="text-center text-white">版权信息©2006-2017 粤ICP备xxxxxxxxxxxx号-7 </p>
+          <p class="text-center text-white">版权信息©2010-2018 粤ICP备xxxxxxxxxxxx号-7 </p>
         </div>
       </div>
     </div>
@@ -202,12 +187,7 @@
 <!-- Helpers -->
 <script src="http://joanclaret.github.io/html5-canvas-animation/js/projector.js"></script>
 <script src="http://joanclaret.github.io/html5-canvas-animation/js/canvas-renderer.js"></script>
-
-<!-- Visualitzation adjustments -->
 <script src="http://joanclaret.github.io/html5-canvas-animation/js/3d-lines-animation.js"></script>
-
-<!-- Animated background color -->
-<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script> -->
 <script src="http://joanclaret.github.io/html5-canvas-animation/js/color.js"></script>
   <script>
     $(document).ready(function() {
@@ -215,6 +195,9 @@
           ["homescreen-3.jpg","homescreen-4.jpg",],
           {duration: 2000, fade: 1000}
         );
+
+        $('.business').click(function(){$('html,body').animate({scrollTop:$('#business').offset().top}, 800);});
+        $('.contactus').click(function(){$('html,body').animate({scrollTop:$('#contactus').offset().top}, 800);});
     });
 </script>
 </body>
