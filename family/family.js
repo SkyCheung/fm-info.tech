@@ -36,7 +36,33 @@ function init(){
                 id: "node011",
                 name: "锡风",
                 data: {},
-                children: []
+                children: [
+                        {
+                        id: "node0111",
+                        name: "大风",
+                        data: {},
+                        children: [
+                        ]
+                    },{
+                        id: "node0112",
+                        name: "秉风",
+                        data: {},
+                        children: [
+                        ]
+                    },{
+                        id: "node0113",
+                        name: "景风",
+                        data: {},
+                        children: [
+                        ]
+                    },{
+                        id: "node0114",
+                        name: "森风",
+                        data: {},
+                        children: [
+                        ]
+                    }
+                ]
             },{
                 id: "node012",
                 name: "锡去",
@@ -46,12 +72,65 @@ function init(){
                 id: "node013",
                 name: "锡琼",
                 data: {},
-                children: []
+                children: [
+                    {
+                        id: "node0131",
+                        name: "普成",
+                        data: {},
+                        children: [{
+                            id: "node01311",
+                            name: "应文",
+                            data: {},
+                            children: []
+                        },{
+                            id: "node01311",
+                            name: "应昌",
+                            data: {},
+                            children: []
+                        }]
+                    },{
+                        id: "node0132",
+                        name: "国成",
+                        data: {},
+                        children: [
+                            {
+                                id: "node01321",
+                                name: "水福",
+                                data: {},
+                                children: []
+                            },{
+                                id: "node01322",
+                                name: "应华",
+                                data: {},
+                                children: []
+                            },{
+                                id: "node01323",
+                                name: "应芳",
+                                data: {},
+                                children: []
+                            },{
+                                id: "node01324",
+                                name: "应忠",
+                                data: {},
+                                children: []
+                            },{
+                                id: "node01325",
+                                name: "应玉",
+                                data: {},
+                                children: []
+                            }
+                        ]
+                    },
+                ]
             },{
                 id: "node014",
                 name: "锡行",
                 data: {},
-                children: []
+                children: [{
+            id: "node13",
+            name: "作成",
+            data: {},
+            children: []}]
             },{
                 id: "node015",
                 name: "锡瓒",
@@ -179,6 +258,7 @@ function init(){
     //init Spacetree
     //Create a new ST instance
     var st = new $jit.ST({
+        orientation: 'left',  
         //id of viz container element
         injectInto: 'infovis',
         //set duration for the animation
@@ -187,6 +267,7 @@ function init(){
         transition: $jit.Trans.Quart.easeInOut,
         //set distance between node and its children
         levelDistance: 50,
+
         //enable panning
         Navigation: {
           enable:true,
@@ -196,8 +277,8 @@ function init(){
         //set overridable=true for styling individual
         //nodes or edges
         Node: {
-            height: 20,
-            width: 60,
+            height: 25,
+            width: 80,
             type: 'rectangle',
             color: '#aaa',
             overridable: true
@@ -231,7 +312,7 @@ function init(){
             };
             //set label styles
             var style = label.style;
-            style.width = 60 + 'px';
+            style.width = 80 + 'px';
             style.height = 17 + 'px';            
             style.cursor = 'pointer';
             style.color = '#333';
