@@ -786,7 +786,8 @@ function init(){
         transition: $jit.Trans.Quart.easeInOut,
         //set distance between node and its children
         levelDistance: 50,
-
+        //The number of levels to show for a subtree
+        levelsToShow:5, 
         //enable panning
         Navigation: {
           enable:true,
