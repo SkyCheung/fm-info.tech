@@ -28,7 +28,6 @@ var Log = {
 
 function init(){
     //init data
-    //文彩、文斌、文毓、文茂
     var json = {
     "id": "nodea0", 
     "name": "瓒受", 
@@ -36,7 +35,7 @@ function init(){
     "children": [
         {
             "id": "nodea01", 
-            "name": "文彩", 
+            "name": "文彩(斋堂坡分支祖)", 
             "data": { }, 
             "children": [ ]
         }, 
