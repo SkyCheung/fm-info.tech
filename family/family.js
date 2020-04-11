@@ -28,7 +28,418 @@ var Log = {
 
 function init(){
     //init data
+    //文彩、文斌、文毓、文茂
     var json = {
+        id: "nodea0",
+        name: "瓒受",
+        data: {},
+        children: [
+            {
+                id: "nodea01",
+                name: "文彩",
+                data: {},
+                children: []
+            },
+            {
+                id: "nodea02",
+                name: "文斌",
+                data: {},
+                children: []
+            },{
+                id: "nodea03",
+                name: "文毓",
+                data: {},
+                children: []
+            },{
+                id: "nodea04",
+                name: "文茂",
+                data: {},
+                children: [
+                    {
+                        id: "nodea041",
+                        name: "瑞超",
+                        data: {},
+                        children: [
+                            {
+                                id: "nodea0411",
+                                name: "人儒",
+                                data: {},
+                                children: []
+                            },{
+                                id: "nodea0412",
+                                name: "人盛",
+                                data: {}, 
+                                children: [
+                                    {
+                                        id: "nodea04121",
+                                        name: "锡庆",
+                                        data: {},
+                                        children: []
+                                    },{
+                                        id: "nodea04122",
+                                        name: "锡旺",
+                                        data: {},
+                                        children: []
+                                    },{
+                                        id: "nodea04123",
+                                        name: "锡宝",
+                                        data: {},
+                                        children: []
+                                    },{
+                                        id: "nodea04124",
+                                        name: "锡兰",
+                                        data: {},
+                                        children: []
+                                    },{
+                                        id: "nodea04125",
+                                        name: "金福",
+                                        data: {},
+                                        children: []
+                                    },{
+                                        id: "nodea04126",
+                                        name: "锡坤",
+                                        data: {},
+                                        children: [
+                                            {
+                                                id: "nodea041211",
+                                                name: "聚成",
+                                                data: {},
+                                                children: []
+                                            },{
+                                                id: "nodea041212",
+                                                name: "茂成",
+                                                data: {},
+                                                children: [
+                                                    {
+                                                        id: "nodea0412121",
+                                                        name: "应建(木生)",
+                                                        data: {},
+                                                        children: [
+                                                            {
+                                                                id: "nodea04121211",
+                                                                name: "欢英(湴水)",
+                                                                data: {},
+                                                                children: [
+                                                                ]
+                                                            },{
+                                                                id: "nodea04121212",
+                                                                name: "锦英(木寿)",
+                                                                data: {},
+                                                                children: [
+                                                                ]
+                                                            },{
+                                                                id: "nodea04121213",
+                                                                name: "景英(福仔)",
+                                                                data: {},
+                                                                children: [
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },{
+                                                        id: "nodea0412122",
+                                                        name: "应彩(土福)",
+                                                        data: {},
+                                                        children: [
+                                                            
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                            ]
+                            },{
+                                id: "nodea0413",
+                                name: "人和",
+                                data: {},
+                                children: [
+                                    {
+        id: "node01",
+        name: "人和",
+        data: {},
+        children: [{
+                id: "node011",
+                name: "锡风",
+                data: {},
+                children: [
+                        {
+                        id: "node0111",
+                        name: "大风",
+                        data: {},
+                        children: [
+                        ]
+                    },{
+                        id: "node0112",
+                        name: "秉风",
+                        data: {},
+                        children: [
+                        ]
+                    },{
+                        id: "node0113",
+                        name: "景风",
+                        data: {},
+                        children: [
+                        ]
+                    },{
+                        id: "node0114",
+                        name: "森风",
+                        data: {},
+                        children: [
+                        ]
+                    }
+                ]
+            },{
+                id: "node012",
+                name: "锡去",
+                data: {},
+                children: []
+            },{
+                id: "node013",
+                name: "锡琼",
+                data: {},
+                children: [
+                    {
+                        id: "node0131",
+                        name: "普成",
+                        data: {},
+                        children: [{
+                            id: "node01311",
+                            name: "应文",
+                            data: {},
+                            children: []
+                        },{
+                            id: "node01312",
+                            name: "应昌",
+                            data: {},
+                            children: []
+                        }]
+                    },{
+                        id: "node0132",
+                        name: "国成",
+                        data: {},
+                        children: [
+                            {
+                                id: "node01321",
+                                name: "水福",
+                                data: {},
+                                children: []
+                            },{
+                                id: "node01322",
+                                name: "应华",
+                                data: {},
+                                children: []
+                            },{
+                                id: "node01323",
+                                name: "应方",
+                                data: {},
+                                children: [
+                                  {
+                                    id: "node013231",
+                                    name: "原英(亚惠)",
+                                    data: {},
+                                   children: [{
+                                    id: "node0132311",
+                                    name: "开顺(木德)",
+                                    data: {},
+                                   children: []
+                                  },{
+                                    id: "node0132312",
+                                    name: "开聪",
+                                    data: {},
+                                   children: []
+                                  }]
+                                  }]
+                            },{
+                                id: "node01324",
+                                name: "应忠",
+                                data: {},
+                                children: [{
+                                id: "node013241",
+                                name: "聪英(张飞)",
+                                data: {},
+                                children: []
+                            },{
+                                id: "node013242",
+                                name: "幸英(土金)",
+                                data: {},
+                                children: []
+                            },{
+                                id: "node013243",
+                                name: "吾英(路金)",
+                                data: {},
+                                children: []
+                            },{
+                                id: "node013244",
+                                name: "粤英(学富)",
+                                data: {},
+                                children: []
+                            }]
+                            },{
+                                id: "node01325",
+                                name: "应玉",
+                                data: {},
+                                children: [{
+                                id: "node013251",
+                                name: "斌英(玉文)",
+                                data: {},
+                                children: []
+                            }]
+                            }
+                        ]
+                    },
+                ]
+            },{
+                id: "node014",
+                name: "锡行",
+                data: {},
+                children: [{
+            id: "node13",
+            name: "作成",
+            data: {},
+            children: []}]
+            },{
+                id: "node015",
+                name: "锡瓒",
+                data: {},
+                children: [{
+            id: "node13",
+            name: "作成",
+            data: {},
+            children: [{
+                id: "node24",
+                name: "应勇(亚生)",
+                data: {},
+                children: []
+            }, {
+                id: "node222",
+                name: "应超",
+                data: {},
+                children: [{
+                    id: "node323",
+                    name: "李英(湴土)",
+                    data: {},
+                    children: [{
+                        id: "node424",
+                        name: "开放(木林)",
+                        data: {},
+                        children: []
+                    },{
+                        id: "node425",
+                        name: "开郁",
+                        data: {},
+                        children: []
+                    }]
+                },{
+                    id: "node324",
+                    name: "二英(木金)",
+                    data: {},
+                    children: [{
+                        id: "node4245",
+                        name: "土源",
+                        data: {},
+                        children: []
+                    },{
+                        id: "node4246",
+                        name: "土锋",
+                        data: {},
+                        children: []
+                    }]
+                }]
+            },{
+                id: "node223",
+                name: "应毅(水旺)",
+                data: {},
+                children: [{
+                    id: "node3231",
+                    name: "炎英(炎寿)",
+                    data: {},
+                    children: []
+                },{
+                    id: "node3232",
+                    name: "作英(海英)",
+                    data: {},
+                    children: []
+                }]
+            }]
+        }, {
+            id: "node125",
+            name: "信成",
+            data: {},
+            children: [{
+                id: "node226",
+                name: "应就(水生)",
+                data: {},
+                children: [{
+                    id: "node327",
+                    name: "盛英(志武)",
+                    data: {},
+                    children: [{
+                        id: "node428",
+                        name: "杰棋",
+                        data: {},
+                        children: []
+                    }, {
+                        id: "node429",
+                        name: "杰铭",
+                        data: {},
+                        children: []
+                    }]
+                }, {
+                    id: "node330",
+                    name: "就英(志聪)",
+                    data: {},
+                    children: [{
+                        id: "node431",
+                        name: "增锋",
+                        data: {},
+                        children: []
+                    },{
+                        id: "node432",
+                        name: "桂铭",
+                        data: {},
+                        children: []
+                    }]
+                }]
+            }]
+        }, {
+            id: "node165",
+            name: "昌成",
+            data: {},
+            children: [{
+                id: "node266",
+                name: "就海(金生)",
+                data: {},
+                children: [{
+                    id: "node367",
+                    name: "祥英(张为)",
+                    data: {},
+                    children: []
+                }]
+            }]
+        }]
+            }
+        ]
+    }
+                                ]
+                            },{
+                                id: "nodea0414",
+                                name: "人厚",
+                                data: {},
+                                children: []
+                            },{
+                                id: "nodea0415",
+                                name: "人华",
+                                data: {},
+                                children: []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    };  
+
+    var json1 = {
         id: "node01",
         name: "人和",
         data: {},
