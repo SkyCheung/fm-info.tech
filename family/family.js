@@ -469,7 +469,7 @@ function init(){
                                                     "children": [
                                                         {
                                                             "id": "node266", 
-                                                            "name": "就海(金生)", 
+                                                            "name": "应海(金生)", 
                                                             "data": { }, 
                                                             "children": [
                                                                 {
@@ -760,7 +760,7 @@ function init(){
             data: {},
             children: [{
                 id: "node266",
-                name: "就海(金生)",
+                name: "应海(金生)",
                 data: {},
                 children: [{
                     id: "node367",
