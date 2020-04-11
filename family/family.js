@@ -128,12 +128,37 @@ function init(){
                                 id: "node01324",
                                 name: "应忠",
                                 data: {},
+                                children: [{
+                                id: "node013241",
+                                name: "聪英(张飞)",
+                                data: {},
                                 children: []
+                            },{
+                                id: "node013242",
+                                name: "幸英(土金)",
+                                data: {},
+                                children: []
+                            },{
+                                id: "node013243",
+                                name: "吾英(路金)",
+                                data: {},
+                                children: []
+                            },{
+                                id: "node013244",
+                                name: "粤英(学富)",
+                                data: {},
+                                children: []
+                            }]
                             },{
                                 id: "node01325",
                                 name: "应玉",
                                 data: {},
+                                children: [{
+                                id: "node013251",
+                                name: "斌英(玉文)",
+                                data: {},
                                 children: []
+                            }]
                             }
                         ]
                     },
@@ -320,11 +345,11 @@ function init(){
             label.id = node.id;            
             label.innerHTML = node.name;
             label.onclick = function(){
-            	if(normal.checked) {
-            	  st.onClick(node.id);
-            	} else {
+                if(normal.checked) {
+                  st.onClick(node.id);
+                } else {
                 st.setRoot(node.id, 'animate');
-            	}
+                }
             };
             //set label styles
             var style = label.style;
