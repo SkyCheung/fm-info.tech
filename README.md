@@ -1,1 +1,1 @@
-# fm-info.teck
+# fm-info.tech
